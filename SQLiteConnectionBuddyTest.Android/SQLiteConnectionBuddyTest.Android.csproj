@@ -61,7 +61,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="SQLiteConnectionBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SQLiteConnectionBuddy.1.0.0\lib\MonoAndroid10\SQLiteConnectionBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\SQLiteConnectionBuddy.1.0.1\lib\MonoAndroid10\SQLiteConnectionBuddy.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -75,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="..\SQLiteConnectionBuddyTest.SharedProject\Catpants.db">
+      <Link>Catpants.db</Link>
+    </AndroidAsset>
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />

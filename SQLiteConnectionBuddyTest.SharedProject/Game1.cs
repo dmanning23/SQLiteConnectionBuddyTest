@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using SQLiteConnectionBuddy;
 
 namespace SQLiteConnectionBuddyTest
 {
@@ -40,7 +41,14 @@ namespace SQLiteConnectionBuddyTest
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 
-			// TODO: use this.Content to load your game content here
+			using (var db = SQLiteConnectionHelper.GetConnection("Catpants.db"))
+			{
+				var tableInfo = db.GetTableInfo("Cats");
+				if (tableInfo.Count == 0)
+				{
+					db.CreateTable<Catpants>();
+				}
+			}
 		}
 
 		/// <summary>
@@ -59,9 +67,10 @@ namespace SQLiteConnectionBuddyTest
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Update(GameTime gameTime)
 		{
+#if !__IOS__
 			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
 				Exit();
-
+#endif
 			// TODO: Add your update logic here
 
 			base.Update(gameTime);

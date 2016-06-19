@@ -2,7 +2,10 @@
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
     "MonoGame.Framework.WindowsUniversal": "3.5.1.1679",
-    "SQLiteConnectionBuddy": "1.0.0"
+    "SharpDX": "3.0.0",
+    "SharpDX.Direct2D1": "3.0.0",
+    "SharpDX.Direct3D11": "3.0.0",
+    "SQLiteConnectionBuddy": "1.0.1"
   },
   "frameworks": {
     "uap10.0": {}

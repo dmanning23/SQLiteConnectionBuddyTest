@@ -287,6 +287,53 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -308,7 +355,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -2208,6 +2255,53 @@
           "runtimes/win8-arm/native/mscorrc.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -2229,7 +2323,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -3972,6 +4066,53 @@
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -3993,7 +4134,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -5746,6 +5887,53 @@
           "runtimes/win7-x64/native/mscorrc.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -5767,7 +5955,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -7510,6 +7698,53 @@
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -7531,7 +7766,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -9284,6 +9519,53 @@
           "runtimes/win7-x86/native/mscorrc.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -9305,7 +9587,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -11048,6 +11330,53 @@
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
         }
       },
+      "SharpDX/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0",
+          "SharpDX.DXGI": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
+        }
+      },
       "SQLite.Net-PCL/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -11069,7 +11398,7 @@
           "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
-      "SQLiteConnectionBuddy/1.0.0": {
+      "SQLiteConnectionBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
@@ -13216,6 +13545,54 @@
         "runtimes/win8-arm/native/mscorrc.dll"
       ]
     },
+    "SharpDX/3.0.0": {
+      "sha512": "HjBoC6dxcssXWZvBD0rkRQciXXygaTvjOlfaHb8WWMFNJCZQBWFiTE1sFsoqwQMdSvt0KCko9X/+EvROHR16ng==",
+      "type": "package",
+      "files": [
+        "SharpDX.3.0.0.nupkg.sha512",
+        "SharpDX.nuspec",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.xml"
+      ]
+    },
+    "SharpDX.Direct2D1/3.0.0": {
+      "sha512": "eq08/vzV+BSkvVhFa81+eL7xkxZ+ABxJVdcJWv/700475EnpC3Ojb1dsvtTJzIRjOa8tHUgEQliI0hyZCkl5IQ==",
+      "type": "package",
+      "files": [
+        "SharpDX.Direct2D1.3.0.0.nupkg.sha512",
+        "SharpDX.Direct2D1.nuspec",
+        "lib/net45/SharpDX.Direct2D1.dll",
+        "lib/net45/SharpDX.Direct2D1.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.xml"
+      ]
+    },
+    "SharpDX.Direct3D11/3.0.0": {
+      "sha512": "4WyPEjj7i5eDuWWsxEJ4tACKS9BqiF0OYyUWvh2MRVMgm0eJUYPtwsfKkjCFWqOFlDlkgGj5v5uxFRfBOWPFNw==",
+      "type": "package",
+      "files": [
+        "SharpDX.Direct3D11.3.0.0.nupkg.sha512",
+        "SharpDX.Direct3D11.nuspec",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.xml"
+      ]
+    },
+    "SharpDX.DXGI/3.0.0": {
+      "sha512": "m3eXW7hT8OSZCrqqnHofpu6M095omztmberjrtDxuwlerdkGcw43Io13FkgCH6IrahfxDWZXQ3O4RIq+ClCNlA==",
+      "type": "package",
+      "files": [
+        "SharpDX.DXGI.3.0.0.nupkg.sha512",
+        "SharpDX.DXGI.nuspec",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.xml"
+      ]
+    },
     "SQLite.Net-PCL/3.1.1": {
       "sha512": "eIaIk+k4MwvBeKyzj1kgIegWXYZlaDAHNzsaYP7wNDgSqAdaza8FgCRun7mIZScJD/RIuKxN/b1V+bkC+/WIeA==",
       "type": "package",
@@ -13243,11 +13620,11 @@
         "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll"
       ]
     },
-    "SQLiteConnectionBuddy/1.0.0": {
-      "sha512": "SlmqfOjtR1EpGj6DnYmqnkGp7/exRaW/XF4Jc4xQ2aLFtVKBGGkuazcHHREAiGzIUHDDiFIhZ4VR/KcVsQtIOA==",
+    "SQLiteConnectionBuddy/1.0.1": {
+      "sha512": "pRlSKIzVITumRUiY33qtAC2ze0fyQZpl+/3CrjF3kBqieslP55tEWSJ9sBjLJiGrl3llvQ6dfaW6dDDQ5j1/ig==",
       "type": "package",
       "files": [
-        "SQLiteConnectionBuddy.1.0.0.nupkg.sha512",
+        "SQLiteConnectionBuddy.1.0.1.nupkg.sha512",
         "SQLiteConnectionBuddy.nuspec",
         "lib/MonoAndroid10/SQLiteConnectionBuddy.Android.dll",
         "lib/MonoAndroid10/SQLiteConnectionBuddy.Android.pdb",
@@ -15863,7 +16240,10 @@
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
       "MonoGame.Framework.WindowsUniversal >= 3.5.1.1679",
-      "SQLiteConnectionBuddy >= 1.0.0"
+      "SQLiteConnectionBuddy >= 1.0.1",
+      "SharpDX >= 3.0.0",
+      "SharpDX.Direct2D1 >= 3.0.0",
+      "SharpDX.Direct3D11 >= 3.0.0"
     ],
     "UAP,Version=v10.0": []
   }

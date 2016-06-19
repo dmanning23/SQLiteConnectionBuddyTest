@@ -9,6 +9,7 @@
     <Import_RootNamespace>SQLiteConnectionBuddyTest.SharedProject</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Catpants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
   </ItemGroup>
 </Project>
