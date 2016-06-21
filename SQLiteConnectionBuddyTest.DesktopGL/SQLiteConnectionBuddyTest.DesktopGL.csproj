@@ -90,6 +90,10 @@
     <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\SQLiteConnectionBuddyTest.SharedProject\Catpants.db">
+      <Link>Catpants.db</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>

@@ -43,11 +43,8 @@ namespace SQLiteConnectionBuddyTest
 
 			using (var db = SQLiteConnectionHelper.GetConnection("Catpants.db"))
 			{
-				var tableInfo = db.GetTableInfo("Cats");
-				if (tableInfo.Count == 0)
-				{
-					db.CreateTable<Catpants>();
-				}
+				//this will create the table if it doesn exist, upgrade if it has changed, or nothing if it is the same
+				db.CreateTable<Catpants>();
 			}
 		}
 
