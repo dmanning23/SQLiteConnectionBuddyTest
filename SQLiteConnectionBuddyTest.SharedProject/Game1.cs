@@ -41,7 +41,7 @@ namespace SQLiteConnectionBuddyTest
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 
-			using (var db = SQLiteConnectionHelper.GetConnection("Catpants.db"))
+			using (var db = SQLiteConnectionHelper.GetConnection("Catpants.db", false))
 			{
 				//this will create the table if it doesn exist, upgrade if it has changed, or nothing if it is the same
 				db.CreateTable<Catpants>();

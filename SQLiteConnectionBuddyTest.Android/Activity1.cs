@@ -2,6 +2,7 @@ using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Android.Views;
+using SQLiteConnectionBuddy;
 
 namespace SQLiteConnectionBuddyTest.Android
 {
@@ -18,6 +19,10 @@ namespace SQLiteConnectionBuddyTest.Android
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
+
+			//initialize the database
+			SQLiteConnectionHelper.CopyEmbeddedDatabase("Catpants.db", this);
+
 			var g = new Game1();
 			SetContentView((View)g.Services.GetService(typeof(View)));
 			g.Run();
