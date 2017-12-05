@@ -5,8 +5,8 @@
     "SharpDX": "3.0.0",
     "SharpDX.Direct2D1": "3.0.0",
     "SharpDX.Direct3D11": "3.0.0",
-    "SQLiteConnectionBuddy": "1.0.10",
-    "SQLiteNetExtensions": "1.3.0"
+    "SQLiteConnectionBuddy": "1.0.14",
+    "SQLiteNetExtensions": "2.0.0"
   },
   "frameworks": {
     "uap10.0": {}

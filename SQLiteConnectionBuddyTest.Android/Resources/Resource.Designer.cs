@@ -26,8 +26,6 @@ namespace SQLiteConnectionBuddyTest.Android
 		
 		public static void UpdateIdValues()
 		{
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::SQLiteConnectionBuddyTest.Android.Resource.String.ApplicationName;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::SQLiteConnectionBuddyTest.Android.Resource.String.Hello;
 			global::SQLiteConnectionBuddy.Android.Resource.String.ApplicationName = global::SQLiteConnectionBuddyTest.Android.Resource.String.ApplicationName;
 			global::SQLiteConnectionBuddy.Android.Resource.String.Hello = global::SQLiteConnectionBuddyTest.Android.Resource.String.Hello;
 		}
