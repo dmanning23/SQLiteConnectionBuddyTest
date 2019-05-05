@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using SQLiteConnectionBuddy;
+using System.Collections.Generic;
 
 namespace SQLiteConnectionBuddyTest
 {
@@ -12,6 +13,10 @@ namespace SQLiteConnectionBuddyTest
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
+
+		List<Catpants> data;
+
+		SpriteFont font;
 
 		public Game1()
 		{
@@ -45,16 +50,16 @@ namespace SQLiteConnectionBuddyTest
 			{
 				//this will create the table if it doesn exist, upgrade if it has changed, or nothing if it is the same
 				db.CreateTable<Catpants>();
-			}
-		}
 
-		/// <summary>
-		/// UnloadContent will be called once per game and is the place to unload
-		/// game-specific content.
-		/// </summary>
-		protected override void UnloadContent()
-		{
-			// TODO: Unload any non ContentManager content here
+				//get all the catpants values
+				data = new List<Catpants>();
+				foreach (var catpant in db.Table<Catpants>())
+				{
+					data.Add(catpant);
+				}
+			}
+
+			font = Content.Load<SpriteFont>("TestFont");
 		}
 
 		/// <summary>
@@ -82,6 +87,16 @@ namespace SQLiteConnectionBuddyTest
 			GraphicsDevice.Clear(Color.CornflowerBlue);
 
 			// TODO: Add your drawing code here
+			spriteBatch.Begin();
+
+			var position = new Vector2(8);
+			foreach (var catpant in data)
+			{
+				spriteBatch.DrawString(font, $"{catpant.Name} {catpant.Number}", position, Color.White);
+				position.Y += font.LineSpacing;
+			}
+
+			spriteBatch.End();
 
 			base.Draw(gameTime);
 		}

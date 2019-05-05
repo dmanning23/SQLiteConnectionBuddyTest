@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLiteConnectionBuddy;
+using System;
 
 namespace SQLiteConnectionBuddyTest.DesktopGL
 {
@@ -13,6 +14,9 @@ namespace SQLiteConnectionBuddyTest.DesktopGL
 		[STAThread]
 		static void Main()
 		{
+			//initialize the database
+			SQLiteConnectionHelper.CopyEmbeddedDatabase("Catpants.db", true);
+
 			using (var game = new Game1())
 				game.Run();
 		}

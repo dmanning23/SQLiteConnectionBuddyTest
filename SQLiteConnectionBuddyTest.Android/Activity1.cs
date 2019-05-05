@@ -21,7 +21,7 @@ namespace SQLiteConnectionBuddyTest.Android
 			base.OnCreate(bundle);
 
 			//initialize the database
-			SQLiteConnectionHelper.CopyEmbeddedDatabase("Catpants.db", this);
+			SQLiteConnectionHelper.CopyEmbeddedDatabase("Catpants.db", this, true);
 
 			var g = new Game1();
 			SetContentView((View)g.Services.GetService(typeof(View)));

@@ -1,5 +1,6 @@
 ﻿using System;
 using Foundation;
+using SQLiteConnectionBuddy;
 using UIKit;
 
 namespace SQLiteConnectionBuddyTest.iOS
@@ -11,6 +12,9 @@ namespace SQLiteConnectionBuddyTest.iOS
 
 		internal static void RunGame()
 		{
+			//initialize the database
+			SQLiteConnectionHelper.CopyEmbeddedDatabase("Catpants.db", true);
+
 			game = new Game1();
 			game.Run();
 		}
